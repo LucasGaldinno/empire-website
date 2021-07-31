@@ -36,7 +36,3 @@ Tool used to develop the project:
 </h3>
 This project was developed in Visual Studio Code <br>
 June 2021 (version 1.58) <a href="https://code.visualstudio.com/">Visual Studio Code</a>
-                                                                 
-<h3 align="center">
-Final result of the project
-</h3>
