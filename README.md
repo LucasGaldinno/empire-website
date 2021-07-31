@@ -24,12 +24,6 @@ Project planning 📋<br><br>
 <img src ="Screenshots/planning.png?token=AREOZJ6E6O5ZVSGSUZR2GADBAWWRM alt="Planning-Trello">
 </h3>
                                                                                              
-<h3 align="center">
-Functionalities:
-</h3> 
- 
-- [x] Responsive
-
                   
 <h3 align="center">
 Tool used to develop the project:
