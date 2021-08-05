@@ -19,32 +19,33 @@
 <body>
 
   <div class="header">
-  <div class="container">
-  <div class="navbar">
-    <div class="logo">
-      <a href="home.html"><img src="assets/img/logo-empire.png" width="125px"></a>
+    <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="home.html"><img src="assets/img/logo-empire.png" width="125px"></a>
+      </div>
+      <nav>
+        <ul id ="MenuItems">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Produtos</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </nav>
+      <img src="assets/img/cart.png" width="30px" height="30px">
+      <img src="assets/img/menu.png" class="menu-icon" onclick="menutoggle()">
     </div>
-    <nav>
-      <ul id ="MenuItems">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="product.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <img src="assets/img/cart.png" width="30px" height="30px">
-    <img src="assets/img/menu.png" class="menu-icon" onclick="menutoggle()">
   </div>
-</div>
-</div>
+  </div>
+
 <section>
   <div class="wrapper">
     <div class="contact-us">
-        <div class="title">Contact Us</div>
+        <div class="title">Fale conosco</div>
           
         <div class="input-fields">
             <div class="items">
-         <label for="name" class="label">Name</label>
+         <label for="name" class="label">Nome</label>
          <input id="name" type="text" class="input">
             </div>
          <div class="items">
@@ -52,15 +53,15 @@
          <input id="email" type="text" class="input">
            </div>
          <div class="items">
-         <label for="subject" class="label">Password</label>
+         <label for="subject" class="label">Senha</label>
          <input id="subject" type="password" class="input">
          </div>
         <div class="items">
-         <label for="msg" class="label">message</label>
+         <label for="msg" class="label">Mensagem</label>
          <textarea id="msg" class="text-area"></textarea>
         </div>
      </div>
-     <div class="btn"><a href="">submit</a></div>
+     <div class="btn"><a href="">Enviar</a></div>
     </div>
   </div>
   </section>
@@ -70,27 +71,27 @@
     <div class="container">
       <div class="row">
         <div class="footer-col-1">
-          <h3>Download Our App</h3>
-          <p>Download App for Android and ios mobile phone.</p>
+          <h3>Baixe nosso aplicativo</h3>
+          <p>Baixe o aplicativo para celular Android e iOS.</p>
           <div class="app-logo">
-            <img src="assets/img/play-store.png">
-            <img src="assets/img/app-store.png">
+            <a href="https://play.google.com/store/apps?hl=pt_BR&gl=US"><img src="assets/img/play-store.png"></a>
+            <a href="https://www.apple.com/br/app-store/"><img src="assets/img/app-store.png"></a>
           </div>
         </div>
         <div class="footer-col-2">
           <img src="assets/img/logo-empire.png">
-          <p>Our benefit is to make people more beautiful by wearing your jewelry and accessories.</p>
+          <p>Nossa meta é deixar as pessoas satisfeita com nossos produtos.</p>
         </div>
         <div class="footer-col-3">
-          <h3>Useful Links</h3>
+          <h3>Links Úteis</h3>
           <ul>
-            <li>Coupons</li>
-            <li>Return policy</li>
-            <li>Benefits</li>
+            <li>Cupons</li>
+            <li>Política de devolução</li>
+            <li>Benefícios</li>
           </ul>
         </div>
         <div class="footer-col-4">
-          <h3>Follow us</h3>
+          <h3>Siga nossas redes sociais</h3>
           <ul>
             <li>Instagram</li>
             <li>Facebook</li>
@@ -99,7 +100,7 @@
         </div>
       </div>
       <hr>
-      <p class="copyright">&#169; Copyright 2021 - Lucas Galdino</p>
+      <p class="copyright">&#169; Copyright 2021 - Empire</p>
     </div>
   </div>
 
