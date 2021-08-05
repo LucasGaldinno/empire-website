@@ -21,7 +21,7 @@ O Wireframe desse projeto considera não apenas computadores pessoais, mas tamb�
   
   
 <h2 align="center">
-Planejamento de projeto 📋<br><br>
+Planejamento do projeto 📋<br><br>
 <img src ="Screenshots/planning.png?token=AREOZJ6E6O5ZVSGSUZR2GADBAWWRM alt= Planning-Trello">
 </h2>
                                                                                              
