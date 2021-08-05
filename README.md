@@ -13,8 +13,8 @@
 <p>
 
 <h2>Wireframe :bookmark_tabs:</h2>
-<p>Este é o wireframe da página inicial, se você quiser ver o outro wireframe, vá para a pasta (Wireframe). 
-O Wireframe desse projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.</p>
+<p>Este é o wireframe da página inicial, se você quiser ver os outros wireframes, vá para a pasta (Wireframe). 
+O Wireframe desse projeto considera não apenas computadores pessoais, mas também dispositivos móveis.</p>
 <img src="Screenshots/Wireframe-home-page.png?token=AREOZJZR3B25LTWWRUB2K33BAWURM">
 
 <img src="Screenshots/Wireframe-home-pageP2.png?token=AREOZJ5G2HWILM5EBPK5PL3BAWUTQ">
