@@ -1,7 +1,7 @@
 ![L!](https://img.shields.io/badge/License-MIT-green) 
 
 <h1>Empire - Website 🔷</h1>
-<p>Este projeto foi construído em HTML, CSS e Javascript, é um site de comércio de joias nele você pode ver os produtos também pode conhecer a história da loja e enviar um e-mail para a loja.</p>
+<p>Este projeto foi construído com HTML, CSS e Javascript, é um site de comércio de joias nele você pode ver os produtos também pode conhecer a história da loja e enviar um e-mail para a loja.</p>
 
 <h2 align="center">
  Language :scroll:
