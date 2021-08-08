@@ -48,64 +48,159 @@ a {
   color: rgb(0, 0, 0);
 }
 
-p {
-  color: #555;
+.header {
+  background: radial-gradient(rgb(245, 245, 245), rgb(117, 117, 117));
 }
 
-.wrapper {
-  flex: 1 0 auto;
-  width: auto;
+.header .row{
+  margin-top: 70px;
+}
+
+.categories {
+  margin: 70px 0;
+}
+
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.contact {
+  min-height: 100vh;
+  padding: 50px 100px;
   display: flex;
   justify-content: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(#fff, rgb(161, 161, 161));
 }
-.contact-us{
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  background: rgb(66, 65, 65);
-  padding: 40px 50px;
-  border-radius: 5px;
-}
-.input-fields{
-  padding: 0 30px;
-}
-.input-fields .items{
-  width: 100%;
-  padding-bottom: 15px;
 
+.contact .content {
+  max-width: 800px;
+  text-align: center;
 }
-.input-fields .items .label{
-  display: block;
-  font-size: 1em;
-  color: white;
-  text-transform: capitalize;
-  padding-bottom: 5px;
-}
-.input-fields .items .input,
-.input-fields .items .text-area{
-  background: transparent;
-  border: 0;
-  border: 1px solid white;
-  width: 100%;
-  padding: 8px 10px;
-  font-size: 1em;
-  color: white;
-  border-radius: 3px;
-}
-.btn {
-  display: inline-block;
-  background: radial-gradient(rgb(144, 141, 141), rgb(0, 0, 0));
+
+.contact .content h2{
+  font-size: 36px;
+  font-weight: 500;
   color: rgb(0, 0, 0);
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.5s;
-  font-family:'Poppins', sans-serif;
 }
 
-.btn:hover {
+.contact .content p{
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  margin-right: 700px;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container2 .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container2 .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container2 .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container2 .contactInfo .box .text h3{
+  font-weight: 500;
+  color: #0104d4;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputBox input:focus ~ span, 
+.contactForm .inputBox input:valid ~ span, 
+.contactForm .inputBox textarea:focus ~ span, 
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: radial-gradient(rgb(194, 194, 194), rgb(0, 0, 0));
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.contactForm .inputBox input:hover[type="submit"] {
   background: rgb(0, 0, 0);
 }
 
@@ -121,47 +216,6 @@ p {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.header {
-  background: radial-gradient(#fff, rgb(161, 161, 161));
-}
-
-.header .row{
-  margin-top: 70px;
-}
-
-.small-container {
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.title {
-  margin: 0px auto -11px;
-  position: relative;
-  line-height: 60px;
-  color: rgb(235, 235, 235);
-  text-align: center;
-  padding: 5%;
-  font-size: 50px;
-}
-
-.title::after {
-  content: '';
-  width: 80px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-h4 {
-  color: #000;
-  font-weight: normal;
 }
 
 /* footer */
@@ -224,12 +278,6 @@ ul {
   text-align: center;
 }
 
-.menu-icon {
-  width: 28px;
-  margin-left: 20px;
-  display: none;
-}
-
 /* media query for menu */
 
 @media only screen and (max-width: 800px) {
@@ -243,45 +291,21 @@ ul {
     transition: max-height 0.5s;
   }
 
-  .title {
-    margin: 181px auto 8px;
-  }
-
   nav ul li {
     display: block;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
   nav ul li a {
-    color: rgb(255, 255, 255);
+    color: #fff;
   }
 
   .menu-icon {
     display: block;
     cursor: pointer;
   }
-
-  .col-4 img {
-    width: 148%;
-    height: 400px;
-  }
-
-  .title {
-    margin: -43px auto 8px;
-  }
-
-  .wrapper {
-    flex: 1 0 auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-top: 25%;
-  }
-  
 }
 
 /* media query for less than 600 screen size */
@@ -291,49 +315,27 @@ ul {
     text-align: center;
   }
 
-  .title {
-    margin: 181px auto 8px;
-  }
   .col-2, .col-3, .col-4, .col-6 {
     flex-basis: 100%;
   }
+}
 
-  .col-4 img {
-    width: 100%;
-    height: 409px;
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
   }
-
-  .about {
-    margin-top: -50px;
-    padding: 10%;
+  .container2 {
+    flex-direction: column;
   }
-
-  .contact-us {
+  .container2 .contactInfo {
+    margin-bottom: 40px;
+  }
+  .container2 .contactInfo,
+  .contactForm {
     width: 100%;
-    max-width: 500px;
-    height: 575px;
-    background: rgb(82, 80, 80);
-    padding: -1px 0px;
-    border-radius: 5px;
-    margin-top: 24%;;
-}
-
-.input-fields {
-  padding: 0px 0px;
-}
-
-.title {
-    margin: -4px auto 8px;
-}
-
-.btn {
-  display: inline-block;
-  background: radial-gradient(rgb(194, 194, 194), rgb(0, 0, 0));
-  color: rgb(0, 0, 0);
-  padding: 8px 30px;
-  margin: -3px 10px;
-  border-radius: 30px;
-  transition: background 0.5s;
-  font-family: 'Poppins', sans-serif;
+  }
+  .content {
+    margin-right: 0px;
   }
 }
