@@ -11,13 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
 
   <link rel="stylesheet" href="assets/css/contact.css">
 
 </head>
 <body>
-
   <div class="header">
     <div class="container">
     <div class="navbar">
@@ -38,32 +37,55 @@
   </div>
   </div>
 
-<section>
-  <div class="wrapper">
-    <div class="contact-us">
-        <div class="title">Fale conosco</div>
-          
-        <div class="input-fields">
-            <div class="items">
-         <label for="name" class="label">Nome</label>
-         <input id="name" type="text" class="input">
-            </div>
-         <div class="items">
-         <label for="email" class="label">E-mail</label>
-         <input id="email" type="text" class="input">
-           </div>
-         <div class="items">
-         <label for="subject" class="label">Senha</label>
-         <input id="subject" type="password" class="input">
-         </div>
-        <div class="items">
-         <label for="msg" class="label">Mensagem</label>
-         <textarea id="msg" class="text-area"></textarea>
-        </div>
-     </div>
-     <div class="btn"><a href="" color="white">Enviar</a></div>
+  <section class="contact">
+    <div class="content">
+      <h2>Informações de contato</h2>
     </div>
-  </div>
+    <div class="container2">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="text">
+            <h3>Endereço</h3>
+            <p>Av. Anápolis, 454, Barueri - Alphaville</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="text">
+            <h3>Telefone</h3>    
+            <p>(11) 5789-0617</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>empire@joalheria.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form>
+          <h2>Enviar mensagem</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Nome</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Digite sua mensagem</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </div>
   </section>
 
   <!-- footer -->
@@ -80,7 +102,7 @@
         </div>
         <div class="footer-col-2">
           <img src="assets/img/logo-empire.png">
-          <p>Nossa meta é deixar as pessoas satisfeita com nossos produtos.</p>
+          <p>Nossa meta é deixar as pessoas satisfeitas com nossos produtos.</p>
         </div>
         <div class="footer-col-3">
           <h3>Links Úteis</h3>
@@ -105,7 +127,7 @@
   </div>
 
   <!-- js for toggle menu -->
-  <script src="assets/js/menu.js"></script>
+  <script src="./assets/js/menu.js"></script>
 
 </body>
 </html>
