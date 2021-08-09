@@ -67,7 +67,7 @@ p {
 
 
 .header {
-  background: radial-gradient(#fff, rgb(161, 161, 161));
+  background: radial-gradient(rgb(245, 245, 245), rgb(117, 117, 117));
 }
 
 .header .row{
