@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -48,10 +45,6 @@ a {
   color: rgb(0, 0, 0);
 }
 
-p {
-  color: #555;
-}
-
 .container {
   max-width: 1300px;
   margin: auto;
@@ -66,11 +59,6 @@ p {
   justify-content: space-around;
 }
 
-.about {
-  margin-top: -127px;
-  padding: 10%;
-}
-
 .btn:hover {
   background: rgb(0, 0, 0);
 }
@@ -83,64 +71,48 @@ p {
   margin-top: 70px;
 }
 
-.categories {
-  margin: 70px 0;
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
 
-.small-container {
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+.about-section {
+  background: url(https://ec.europa.eu/newsroom/repository/picture/2016-8/diamond_on_the_water_2_12148.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: aliceblue;
+  overflow: hidden;
+  padding: 100px 0;
 }
 
-.col-4 {
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
-  transition: transform 0.5s;
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fff;
+  padding: 150px;
 }
 
-.col-4 img {
-    width: 150%;
-    height: 400px;
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
 }
 
-.title {
-  margin: 0 auto 80px;
-  position: relative;
-  line-height: 60px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 5%;
-  font-size: 50px;
+.text {
+  font-size: 13px;
+  color: #8a8a8a;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
 }
 
-.title::after {
-  content: '';
-  width: 80px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-h4 {
-  color: #000;
-  font-weight: normal;
-}
-
-
-.testimonial {
-  padding-top: 100px;
-} 
-
-#user {
-  font-size: 34px;
-  color: #000;
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 
@@ -217,7 +189,7 @@ ul {
     position: absolute;
     top: 70px;
     left: 0;
-    background: rgb(0, 0, 0);
+    background: #000;
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
@@ -271,5 +243,30 @@ ul {
   .about {
     margin-top: -50px;
     padding: 10%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .inner-container{
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .about-section{
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .about-section{
+    padding: 0;
+  }
+  .inner-container{
+    padding: 60px;
   }
 }
